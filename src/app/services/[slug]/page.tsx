@@ -1,7 +1,7 @@
 import { getServices, getServiceById } from "@/lib/api/services";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { ServiceDetailView } from "@/components/services/ServiceDetailView";
-import { pageMetadata } from "@/lib/seo/metadata";
+import { pageMetadata, clipMeta } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/structured-data";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -17,9 +17,17 @@ export async function generateMetadata({ params }: Props) {
   if (!service) return {};
   return pageMetadata({
     title: service.name,
-    description: `${service.summary} ${service.overview}`.slice(0, 160),
+    description: clipMeta(
+      `${service.summary} Built by Beyond Tech in Port Harcourt for organizations across Nigeria.`,
+    ),
     path: `/services/${service.slug}`,
-    keywords: [service.name, "Beyond Tech services", "custom software Nigeria"],
+    keywords: [
+      service.name,
+      ...service.highlights.slice(0, 6),
+      "Beyond Tech Nigeria",
+      "Port Harcourt",
+    ],
+    ogImage: service.imageUrl,
   });
 }
 

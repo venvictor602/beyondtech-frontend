@@ -2,24 +2,33 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { PageProse } from "@/components/content/PageProse";
 import { ContactForm } from "@/components/contact/ContactForm";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { SITE } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbJsonLd, contactPageJsonLd } from "@/lib/seo/structured-data";
 
 export const metadata = pageMetadata({
-  title: "Contact",
+  title: "Contact Beyond Tech in Port Harcourt",
   description:
-    "Contact Beyond Tech to start a project — custom software, attendance systems, child safety, church technology, automation, or cloud infrastructure.",
+    "Start a software project with Beyond Tech. Call +234 706 509 7035 or email info@beyondtechng.com for custom software, attendance, church systems, automation and cloud.",
   path: "/contact",
   keywords: [
     "contact Beyond Tech",
-    "Beyond Tech Nigeria",
-    "start a software project",
+    "software company Port Harcourt",
+    "info@beyondtechng.com",
+    "start a software project Nigeria",
   ],
 });
 
 export default function ContactPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Contact" }]),
+          contactPageJsonLd(),
+        ]}
+      />
       <PageHeader
         eyebrow="Get in touch"
         title="Contact us"

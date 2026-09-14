@@ -19,12 +19,15 @@ export async function generateMetadata({ params }: Props) {
     title: project.title,
     description: `${project.summary} ${project.sector} case study by Beyond Tech.`,
     path: `/projects/${project.slug}`,
+    ogType: "article",
     keywords: [
       project.title,
       project.sector,
+      ...project.services,
       "Beyond Tech case study",
       "Nigeria",
     ],
+    ogImage: project.imageUrl,
   });
 }
 

@@ -55,6 +55,15 @@ export const metadata: Metadata = {
   creator: SEO.siteName,
   publisher: SEO.siteName,
   category: "technology",
+  referrer: "origin-when-cross-origin",
+  verification: SEO.googleVerification
+    ? { google: SEO.googleVerification }
+    : undefined,
+  appleWebApp: {
+    capable: true,
+    title: SEO.siteName,
+    statusBarStyle: "default",
+  },
   icons: {
     icon: [
       { url: "/brand/favicon-32.png", type: "image/png", sizes: "32x32" },
@@ -64,9 +73,17 @@ export const metadata: Metadata = {
       { url: "/brand/apple-icon.png", type: "image/png", sizes: "180x180" },
     ],
   },
+  alternates: {
+    canonical: SEO.siteUrl,
+    languages: {
+      "en-NG": SEO.siteUrl,
+      "x-default": SEO.siteUrl,
+    },
+  },
   openGraph: {
     type: "website",
     locale: SEO.locale,
+    alternateLocale: ["en"],
     siteName: SEO.siteName,
     title: SEO.defaultTitle,
     description: SEO.defaultDescription,
@@ -97,6 +114,12 @@ export const metadata: Metadata = {
       "max-snippet": -1,
       "max-video-preview": -1,
     },
+  },
+  other: {
+    "geo.region": SEO.geo.regionCode,
+    "geo.placename": SEO.geo.locality,
+    "geo.position": `${SEO.geo.latitude};${SEO.geo.longitude}`,
+    ICBM: `${SEO.geo.latitude}, ${SEO.geo.longitude}`,
   },
 };
 

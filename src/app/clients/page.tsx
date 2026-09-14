@@ -4,11 +4,13 @@ import { PageProse } from "@/components/content/PageProse";
 import { CtaSection } from "@/components/home/CtaSection";
 import { CLIENTS, SITE } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo/metadata";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbJsonLd } from "@/lib/seo/structured-data";
 
 export const metadata = pageMetadata({
-  title: "Clients",
+  title: "Clients and organisations we serve",
   description:
-    "Organisations that trust Beyond Tech for custom software, attendance systems, church technology, and digital operations.",
+    "Schools, churches, offices and enterprises that work with Beyond Tech on custom software, attendance systems, child safety and digital operations in Nigeria.",
   path: "/clients",
   keywords: [
     "Beyond Tech clients",
@@ -23,6 +25,12 @@ export default function ClientsPage() {
 
   return (
     <>
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", path: "/" },
+          { name: "Clients" },
+        ])}
+      />
       <PageHeader
         eyebrow="Partnerships"
         title="Clients & sectors"

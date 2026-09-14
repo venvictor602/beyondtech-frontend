@@ -3,19 +3,20 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { PageProse } from "@/components/content/PageProse";
 import { CtaSection } from "@/components/home/CtaSection";
 import { HowWeWorkSection } from "@/components/home/HowWeWorkSection";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { SITE } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo/metadata";
+import { aboutPageJsonLd, breadcrumbJsonLd } from "@/lib/seo/structured-data";
 
 export const metadata = pageMetadata({
   title: "About us",
   description:
-    "About Beyond Tech — software development and digital solutions for schools, businesses, churches and organizations.",
+    "Beyond Tech is a Port Harcourt software company that designs, builds and deploys custom digital systems for schools, businesses, churches and organizations across Nigeria.",
   path: "/about",
   keywords: [
     "about Beyond Tech",
-    "Beyond Tech Nigeria",
+    "software company Port Harcourt",
     "software development company Nigeria",
-    "digital solutions Port Harcourt",
   ],
 });
 
@@ -24,6 +25,12 @@ export default function AboutPage() {
 
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "About" }]),
+          aboutPageJsonLd(),
+        ]}
+      />
       <PageHeader
         eyebrow="Who we are"
         title="Technology with a purpose"

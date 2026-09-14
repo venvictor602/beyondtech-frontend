@@ -154,6 +154,12 @@ const nextConfig: NextConfig = {
         destination: "/careers/software-automation-engineer",
         permanent: true,
       },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.beyondtechng.com" }],
+        destination: "https://beyondtechng.com/:path*",
+        permanent: true,
+      },
     ];
   },
 };

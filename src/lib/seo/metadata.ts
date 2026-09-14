@@ -9,12 +9,21 @@ type PageMetadataOptions = {
   noIndex?: boolean;
   ogImage?: string | null;
   keywords?: string[];
+  ogType?: "website" | "article";
 };
 
 export function absoluteUrl(path = ""): string {
   if (!path) return SEO.siteUrl;
   if (path.startsWith("http")) return path;
   return `${SEO.siteUrl}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
+export function clipMeta(text: string, max = 160): string {
+  const compact = text.replace(/\s+/g, " ").trim();
+  if (compact.length <= max) return compact;
+  const sliced = compact.slice(0, max);
+  const lastSpace = sliced.lastIndexOf(" ");
+  return sliced.slice(0, lastSpace > 80 ? lastSpace : max).trim();
 }
 
 function resolveOgImage(
@@ -32,19 +41,24 @@ export function pageMetadata({
   noIndex = false,
   ogImage = DEFAULT_OG_IMAGE,
   keywords,
+  ogType = "website",
 }: PageMetadataOptions): Metadata {
   const canonical = path ? absoluteUrl(path) : undefined;
   const displayTitle = absoluteTitle ?? `${title} | ${SEO.siteName}`;
   const imageUrl = resolveOgImage(ogImage);
+  const metaDescription = clipMeta(description);
 
   return {
     title: absoluteTitle ? { absolute: absoluteTitle } : title,
-    description,
-    keywords: keywords ? [...keywords] : [...SEO.defaultKeywords],
+    description: metaDescription,
+    keywords: keywords
+      ? [...keywords, ...SEO.defaultKeywords]
+      : [...SEO.defaultKeywords],
     applicationName: SEO.siteName,
     authors: [{ name: SEO.siteName, url: SEO.siteUrl }],
     creator: SEO.siteName,
     publisher: SEO.siteName,
+    category: "technology",
     formatDetection: {
       email: true,
       address: false,
@@ -53,7 +67,10 @@ export function pageMetadata({
     alternates: canonical
       ? {
           canonical,
-          languages: { "en-NG": canonical },
+          languages: {
+            "en-NG": canonical,
+            "x-default": canonical,
+          },
         }
       : undefined,
     robots: noIndex
@@ -70,11 +87,12 @@ export function pageMetadata({
           },
         },
     openGraph: {
-      type: "website",
+      type: ogType,
       locale: SEO.locale,
+      alternateLocale: [SEO.localeAlternate],
       siteName: SEO.siteName,
       title: displayTitle,
-      description,
+      description: metaDescription,
       url: canonical ?? SEO.siteUrl,
       images: imageUrl
         ? [
@@ -89,10 +107,16 @@ export function pageMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      site: SEO.twitterHandle,
+      ...(SEO.twitterHandle ? { site: SEO.twitterHandle } : {}),
       title: displayTitle,
-      description,
+      description: metaDescription,
       images: imageUrl ? [imageUrl] : undefined,
+    },
+    other: {
+      "geo.region": SEO.geo.regionCode,
+      "geo.placename": SEO.geo.locality,
+      "geo.position": `${SEO.geo.latitude};${SEO.geo.longitude}`,
+      ICBM: `${SEO.geo.latitude}, ${SEO.geo.longitude}`,
     },
   };
 }

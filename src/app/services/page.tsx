@@ -1,19 +1,25 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { ServicesListView } from "@/components/services/ServicesListView";
 import { CtaSection } from "@/components/home/CtaSection";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { SITE } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo/metadata";
+import {
+  breadcrumbJsonLd,
+  servicesItemListJsonLd,
+} from "@/lib/seo/structured-data";
 
 export const metadata = pageMetadata({
-  title: "Services",
-  description: SITE.pages.servicesLead,
+  title: "Software services in Nigeria",
+  description:
+    "Custom software, smart attendance, child safety, church and office platforms, business automation, APIs and cloud infrastructure from Beyond Tech in Port Harcourt.",
   path: "/services",
   keywords: [
-    "Beyond Tech services",
-    "custom software development",
+    "software services Nigeria",
+    "custom software Port Harcourt",
     "attendance management system",
+    "church management software Nigeria",
     "child safety technology",
-    "church management software",
     "business automation Nigeria",
   ],
 });
@@ -21,6 +27,12 @@ export const metadata = pageMetadata({
 export default function ServicesPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Services" }]),
+          servicesItemListJsonLd(),
+        ]}
+      />
       <PageHeader
         eyebrow="Capabilities"
         title="Our services"

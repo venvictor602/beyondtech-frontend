@@ -13,6 +13,8 @@ export const APP_ENV = {
       "https://groundsup.vercel.app/api",
     ),
   ),
-  SITE_URL: getPublicEnv("NEXT_PUBLIC_SITE_URL", "http://localhost:3001"),
+  SITE_URL: getPublicEnv("NEXT_PUBLIC_SITE_URL", "https://beyondtechng.com"),
   TWITTER_HANDLE: process.env.NEXT_PUBLIC_TWITTER_HANDLE?.trim() || "",
+  GOOGLE_SITE_VERIFICATION:
+    process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim() || "",
 } as const;
