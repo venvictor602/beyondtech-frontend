@@ -1,5 +1,19 @@
 [
   {
+    "id": "9",
+    "name": "Grace and Gold School",
+    "sector": "Education · Calabar",
+    "logo": "/clients/grace-and-gold-school-logo.png",
+    "description": "Grace and Gold School is an educational institution in Calabar. Beyond Tech partners with the school on digital systems designed around how the campus actually operates — from administration to attendance and student safety."
+  },
+  {
+    "id": "10",
+    "name": "Raymond College Enugu",
+    "sector": "Education · Enugu",
+    "logo": "/clients/raymond-college-enugu-logo.png",
+    "description": "Raymond College Enugu is a school in Enugu working with Beyond Tech on practical digital systems for school operations, attendance and a safer campus environment."
+  },
+  {
     "id": "1",
     "name": "ECM Terminals Limited",
     "sector": "Maritime & port logistics",

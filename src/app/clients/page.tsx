@@ -47,7 +47,7 @@ export default function ClientsPage() {
                 className="rounded-2xl border border-slate-200/90 bg-white p-7 sm:p-8 shadow-sm"
               >
                 {client.logo ? (
-                  <div className="relative h-20 sm:h-24 w-full max-w-[260px] mb-6 rounded-lg overflow-hidden">
+                  <div className="relative h-20 sm:h-24 w-full max-w-70 mb-6 rounded-lg overflow-hidden bg-slate-50">
                     <Image
                       src={client.logo}
                       alt={`${client.name} logo`}
@@ -57,10 +57,10 @@ export default function ClientsPage() {
                     />
                   </div>
                 ) : null}
-                <p className="text-xs font-semibold uppercase tracking-wide text-[var(--color-brand-deep)] m-0">
+                <p className="text-xs font-semibold uppercase tracking-wide text-brand-deep m-0">
                   {client.sector}
                 </p>
-                <h2 className="font-[family-name:var(--font-display)] font-bold text-lg text-slate-900 m-0 mt-2">
+                <h2 className="font-display font-bold text-lg text-slate-900 m-0 mt-2">
                   {client.name}
                 </h2>
                 <p className="text-sm text-slate-600 m-0 mt-3 leading-relaxed">

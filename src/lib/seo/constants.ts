@@ -5,7 +5,7 @@ export const SEO = {
   siteName: site.brand,
   tagline: site.tagline,
   siteUrl: APP_ENV.SITE_URL.replace(/\/+$/, ""),
-  defaultTitle: "Beyond Tech — Custom Software & Digital Solutions in Nigeria",
+  defaultTitle: "Beyond Tech | Custom Software & Digital Solutions in Nigeria",
   defaultDescription:
     "Beyond Tech designs, builds and deploys custom software, attendance systems, child safety technology, church platforms, business automation and cloud infrastructure for organizations in Port Harcourt and across Nigeria.",
   twitterHandle: APP_ENV.TWITTER_HANDLE,

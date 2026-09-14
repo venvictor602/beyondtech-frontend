@@ -9,15 +9,15 @@ import { FadeIn } from "@/components/ui/FadeIn";
 
 function ClientPill({ client }: { client: Client }) {
   return (
-    <div className="flex items-center gap-4 min-w-[260px] px-5 py-4 rounded-xl bg-[var(--bg-elevated)] border border-[var(--border-subtle)] shadow-[var(--shadow-card)]">
+    <div className="flex items-center gap-4 min-w-[280px] px-5 py-4 rounded-xl bg-[var(--bg-elevated)] border border-[var(--border-subtle)] shadow-[var(--shadow-card)]">
       {client.logo ? (
-        <div className="relative h-12 w-20 sm:h-14 sm:w-24 shrink-0 rounded-lg overflow-hidden">
+        <div className="relative h-12 w-28 sm:h-14 sm:w-36 shrink-0 rounded-lg overflow-hidden bg-white">
           <Image
             src={client.logo}
             alt=""
             fill
             className="object-contain object-left"
-            sizes="96px"
+            sizes="144px"
           />
         </div>
       ) : null}
