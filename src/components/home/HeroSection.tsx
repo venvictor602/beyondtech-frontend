@@ -17,7 +17,7 @@ const HERO_SLIDES = [
     label: "Smart attendance & workforce",
   },
   {
-    src: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1200&q=80",
+    src: "https://images.unsplash.com/photo-1558002038-1055907df827?w=1200&q=80",
     label: "Child safety & location",
   },
   {
