@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Send } from "lucide-react";
+import { Loader2, Send } from "lucide-react";
 import { toast } from "sonner";
 import { isValidEmail, trimValue } from "@/lib/form-validation";
 import { useSubscribeMutation } from "@/hooks/api/use-subscribe-mutation";
@@ -37,7 +37,7 @@ export function NewsletterSubscribe() {
       <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--text-muted-on-dark)] m-0 mb-3">
         Newsletter
       </p>
-      <div className="flex flex-col sm:flex-row gap-2">
+      <div className="flex flex-row items-stretch gap-2 w-full">
         <input
           type="email"
           value={email}
@@ -49,10 +49,14 @@ export function NewsletterSubscribe() {
         <button
           type="submit"
           disabled={mutation.isPending}
-          className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-lg bg-[var(--color-brand)] text-white text-sm font-semibold border-0 cursor-pointer hover:bg-[var(--color-brand-deep)] transition-colors disabled:opacity-60"
+          aria-label="Subscribe"
+          className="inline-flex items-center justify-center shrink-0 size-11 rounded-lg bg-[var(--color-brand)] text-white border-0 cursor-pointer hover:bg-[var(--color-brand-deep)] transition-colors disabled:opacity-60"
         >
-          {mutation.isPending ? "…" : "Subscribe"}
-          <Send className="size-3.5" />
+          {mutation.isPending ? (
+            <Loader2 className="size-4 animate-spin" aria-hidden />
+          ) : (
+            <Send className="size-4" aria-hidden />
+          )}
         </button>
       </div>
     </form>

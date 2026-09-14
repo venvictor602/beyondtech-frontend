@@ -69,7 +69,7 @@ function StatCounter({
   }, [start, parsed.isCounter, parsed.target, count]);
 
   const valueClassName =
-    "font-[family-name:var(--font-display)] text-2xl sm:text-[2.5rem] font-semibold text-[var(--color-brand-on-dark)] m-0 tabular-nums tracking-tight";
+    "font-[family-name:var(--font-display)] text-2xl sm:text-[1.75rem] md:text-[2.15rem] lg:text-[2.5rem] font-semibold text-[var(--color-brand-on-dark)] m-0 tabular-nums tracking-tight whitespace-nowrap";
 
   return (
     <div className="flex flex-col items-center justify-center text-center px-4 py-4 sm:py-2 h-full">
