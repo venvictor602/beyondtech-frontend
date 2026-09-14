@@ -1,0 +1,121 @@
+{
+  "brand": "Beyond Tech",
+  "fullName": "Beyond Tech",
+  "shortName": "Beyond Tech",
+  "tagline": "Technology Built Around Your Business.",
+  "brandLine": "Software Development | Business Automation | Digital Solutions",
+  "description": "Beyond Tech is a software development and digital solutions company focused on designing, building and deploying technology that solves real operational challenges. We work with schools, businesses, offices, churches, organizations and institutions to transform manual processes into efficient, connected and intelligent digital systems.",
+  "contact": {
+    "email": "info@beyondtechng.com",
+    "careersEmail": "info@beyondtechng.com",
+    "phone": "+234 706 509 7035",
+    "addressLine": "Port Harcourt, Rivers State, Nigeria",
+    "hours": "Monday – Friday · 8:00 a.m. – 5:00 p.m. (WAT)"
+  },
+  "social": {
+    "linkedin": "",
+    "twitter": "",
+    "github": ""
+  },
+  "home": {
+    "introTitle": "We don't just build software. We build solutions that move organizations forward.",
+    "introParagraphs": [
+      "From custom software applications and business automation to attendance management, workforce monitoring, communication platforms and specialized tracking solutions, we build technology around the way your organization actually works.",
+      "Every organization operates differently. Instead of forcing your processes into an off-the-shelf product, Beyond Tech designs and develops software around your specific requirements — whether you are replacing spreadsheets, paper-based processes or disconnected systems."
+    ],
+    "clientsTitle": "Organisations we work with",
+    "clientsLead": "We partner with schools, businesses, offices, churches, organizations and institutions that need practical digital systems — not generic software.",
+    "ctaEyebrow": "Have a problem to solve?",
+    "ctaTitle": "Let's build the right technology for it.",
+    "ctaBody": "You may already know exactly what software you need — or you may only know that your current process is inefficient. Either way, Beyond Tech can help you turn the challenge into a practical digital solution. Tell us what you need. We'll help you build it."
+  },
+  "pages": {
+    "aboutLead": "Beyond Tech is a software development and digital solutions company. We design, build and deploy technology that solves real operational challenges for schools, businesses, offices, churches, organizations and institutions.",
+    "aboutParagraphs": [
+      "We take your workflow, challenges and objectives and turn them into reliable digital systems that are built for your organization. That can mean a custom management platform, an intelligent attendance system, child safety technology, church operations software, or the automation and integrations that connect it all.",
+      "Our approach is to understand the organization's structure first, then develop technology that fits naturally into its operations. We don't believe in one-size-fits-all software — we design around how you actually work.",
+      "From understanding your problem to designing, developing, deploying and supporting the solution, we can handle the complete technology lifecycle. Systems are built with security, data integrity, scalability and operational independence in mind."
+    ],
+    "clientsLead": "Beyond Tech works with organizations that need accountable software delivery — from schools and churches to growing offices and multi-location enterprises.",
+    "clientsParagraphs": [
+      "In education and children's environments, we build attendance systems, child safety and location solutions, and administrative platforms that give authorized staff better visibility and control.",
+      "For businesses and offices, we replace fragmented administrative processes with centralized digital systems for people, documents, approvals, inventory, reporting and day-to-day operations.",
+      "For churches and organizations, we develop purpose-built platforms for member management, children's ministry, attendance, events, volunteers and communication — designed around how the organization actually runs."
+    ],
+    "servicesLead": "Custom software, smart attendance, child safety, church and office platforms, business automation, integrations and cloud infrastructure — designed around how your organization actually works.",
+    "projectsLead": "Selected work that shows how we turn manual processes into connected digital systems for schools, businesses, churches and organizations.",
+    "projectsParagraphs": [
+      "Projects range from custom management platforms and attendance systems to automation, integrations and specialized tracking solutions. Open a case study to see the challenge, approach and outcome.",
+      "If you have a similar operational problem, we can help you scope the right technology for it."
+    ],
+    "contactLead": "Tell us what you need. We'll help you build it. Share your challenge, timeline and the kind of system you have in mind — or just describe the process that is slowing your team down.",
+    "contactParagraphs": [
+      "Use the form for project enquiries, partnership discussions, or questions about custom software, attendance systems, child safety solutions, church technology, automation or cloud infrastructure.",
+      "For careers at Beyond Tech, visit our open roles or email our careers inbox with your CV and area of interest."
+    ],
+    "careersLead": "Beyond Tech hires software engineers, designers and operators who care about building practical systems for real organizations. Roles are based in Nigeria with hybrid work as programmes require.",
+    "careersParagraphs": [
+      "You will help turn operational challenges into working digital systems — custom software, attendance platforms, child safety technology, church and office solutions, automation and infrastructure.",
+      "We value people who understand business context: how approvals flow, where data breaks between systems, and what staff need from software under time pressure."
+    ]
+  },
+  "stats": [
+    { "value": "Schools", "label": "Attendance, safety & admin systems" },
+    { "value": "Offices", "label": "Workflow, records & reporting" },
+    { "value": "Churches", "label": "Members, ministry & child check-in" },
+    { "value": "End-to-end", "label": "Design, build, deploy & support" }
+  ],
+  "values": [
+    {
+      "title": "Built Around Your Needs",
+      "description": "We don't believe in one-size-fits-all technology. We design solutions around your actual processes and objectives."
+    },
+    {
+      "title": "Practical Innovation",
+      "description": "We focus on technology that solves real problems — not technology for technology's sake."
+    },
+    {
+      "title": "Scalable Architecture",
+      "description": "Our systems are designed with future growth in mind, so your organization can expand without rebuilding everything from scratch."
+    },
+    {
+      "title": "Security & Data Protection",
+      "description": "We take data security seriously, incorporating access controls, secure infrastructure and responsible data handling into our solutions."
+    },
+    {
+      "title": "End-to-End Delivery",
+      "description": "From understanding your problem to designing, developing, deploying and supporting the solution, we can handle the complete technology lifecycle."
+    },
+    {
+      "title": "Industry Versatility",
+      "description": "Our experience spans education, business, offices, churches, organizations and specialized operational environments."
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Understand",
+      "description": "We start by understanding your organization, workflow, challenges and objectives."
+    },
+    {
+      "step": "02",
+      "title": "Design",
+      "description": "We translate your requirements into a practical technology solution and system architecture."
+    },
+    {
+      "step": "03",
+      "title": "Build",
+      "description": "Our development team builds the software, interfaces, integrations and supporting infrastructure."
+    },
+    {
+      "step": "04",
+      "title": "Deploy",
+      "description": "We configure, test and deploy the solution into your operational environment."
+    },
+    {
+      "step": "05",
+      "title": "Support & Improve",
+      "description": "We provide ongoing technical support and can continuously improve the system as your organization evolves."
+    }
+  ]
+}

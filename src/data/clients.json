@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "ECM Terminals Limited",
+    "sector": "Maritime & port logistics",
+    "logo": "/clients/ecm-terminals-logo.png",
+    "description": "ECM Terminals Limited Calabar is a member of Ecomarine Group and concessionaire of Calabar Port Terminal B—Nigeria's main eastern port—under a 30-year Nigerian Ports Authority concession. An integrated maritime services and logistics provider with head office in Lagos, ECM commenced Calabar operations on 1 August 2007."
+  },
+  {
+    "id": "2",
+    "name": "Alpha Shield of Justice",
+    "sector": "Private investigations & security",
+    "logo": "/clients/alpha-shield-logo.png",
+    "description": "Alpha Shield of Justice Private Investigator is a team of experienced, loyal, and discreet security experts who treat every case with professionalism and confidentiality. Personnel are drawn from law enforcement, the legal profession, and forensic analysis—with years of field experience and cutting-edge investigation equipment and techniques."
+  },
+  {
+    "id": "3",
+    "name": "CHAAD Engineering",
+    "sector": "Engineering & energy infrastructure",
+    "logo": "/clients/chaad-engineering-logo.png",
+    "description": "CHAAD Engineering was founded to deliver reliable, sustainable, and robust energy infrastructure—from deepwater offshore platforms to cross-country pipelines. Trusted by major operators in the energy sector, the company pairs technical excellence with a zero-incident safety culture and a commitment to the communities and environments where it works."
+  },
+  {
+    "id": "4",
+    "name": "Borofuel",
+    "sector": "Transport & fuel",
+    "logo": "/clients/borofuel-logo.jpg",
+    "description": "Borofuel is a service provider that gives registered drivers from transport companies secure access to fuel at approved partner filling stations. Drivers authenticate their membership at designated stations and receive fuel according to their transport company's existing arrangements—through a platform built for seamless, efficient collection."
+  },
+  {
+    "id": "5",
+    "name": "WorkAndShop",
+    "sector": "Digital marketplace",
+    "logo": "/clients/workandshop-logo.png",
+    "description": "WorkAndShop is a Nigerian digital marketplace and booking platform that connects users with local skilled workers, artisans, and vendors. Hire handymen, book services, buy market products, or run an online shop—all from a smartphone."
+  },
+  {
+    "id": "6",
+    "name": "CHAAD Energy Limited",
+    "sector": "Oil & energy services",
+    "logo": "/clients/chaad-energy-logo.png",
+    "description": "CHAAD Energy Limited is an indigenous Nigerian oil and energy services company (RC 7025469), focused on reliable technical solutions across the energy value chain. Operating in oil & gas, energy, and construction, the company provides end-to-end project support—from concept design through execution and maintenance."
+  },
+  {
+    "id": "7",
+    "name": "TotalEnergies",
+    "sector": "Oil & gas",
+    "logo": "/clients/totalenergies-logo.png",
+    "description": "Beyond Tech developed an intelligent document generation platform for oil and gas well operations in collaboration with Tilenga and TotalEnergies. The system collects drilling and operational data through structured forms, PDFs, and image uploads, then uses AI-driven processing to extract, analyze, and consolidate information into professionally formatted Word reports—reducing manual effort, improving accuracy, and accelerating report delivery."
+  },
+  {
+    "id": "8",
+    "name": "BW Tech Global Logistics Services",
+    "sector": "Marine & energy logistics",
+    "logo": "/clients/bw-tech-global-logo.png",
+    "description": "BW Tech Global Logistics Services provides inspection, repair, and maintenance to ensure safety and efficiency across marine, oil and gas, and underwater industries. With certified expertise and trusted client partnerships, the company upholds the highest standards to safeguard operations and promote sustainability."
+  }
+]

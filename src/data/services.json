@@ -1,0 +1,500 @@
+[
+  {
+    "id": "1",
+    "slug": "custom-software-development",
+    "name": "Custom Software Development",
+    "summary": "Software designed specifically for your organization — not an off-the-shelf product forced onto your processes.",
+    "icon": "code",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
+    "overview": "Every organization operates differently. Instead of forcing your processes into a generic product, Beyond Tech designs and develops software around your specific requirements. We take your workflow, challenges and objectives and turn them into reliable digital systems that are built for your organization.",
+    "audience": "Schools, businesses, offices, churches, organizations and institutions that need a centralized platform to replace spreadsheets, paper-based processes or disconnected systems.",
+    "whatWeDeliverSubtitle": "Purpose-built applications that match how your teams already work — and can grow as the organization grows.",
+    "howWeWorkSubtitle": "From your current workflow to a working platform, with architecture that stays maintainable after go-live.",
+    "atAGlanceText": "Whether you are replacing spreadsheets, paper-based processes or disconnected systems, we can design a centralized platform that brings everything together.",
+    "highlights": [
+      "Business and enterprise applications",
+      "Web-based management systems",
+      "Internal organizational platforms",
+      "Workflow automation systems",
+      "Data and reporting platforms",
+      "Customer and user management systems",
+      "Administrative portals",
+      "API-driven applications",
+      "Custom dashboards",
+      "Multi-user and multi-location systems"
+    ],
+    "benefits": [
+      {
+        "title": "Built around your workflow",
+        "description": "We start from how your organization actually operates, then design software that fits — instead of asking you to change everything to match a product."
+      },
+      {
+        "title": "One place for the work",
+        "description": "Replace scattered spreadsheets, paper forms and disconnected tools with a centralized platform for people, data and decisions."
+      },
+      {
+        "title": "Ready for more locations and users",
+        "description": "Multi-user, multi-location systems with role-based access so teams can work from one source of truth as you grow."
+      },
+      {
+        "title": "Reporting you can act on",
+        "description": "Custom dashboards and data platforms that turn operational activity into visibility for management."
+      }
+    ],
+    "keyFeatures": [
+      {
+        "title": "Understand",
+        "description": "We map your current workflow, pain points, users and the outcomes you need from a new system."
+      },
+      {
+        "title": "Design",
+        "description": "We define the information architecture, interfaces and integrations before writing production software."
+      },
+      {
+        "title": "Build",
+        "description": "We develop the application, portals, APIs and dashboards around your requirements."
+      },
+      {
+        "title": "Deploy & support",
+        "description": "We launch into your environment and stay available to improve the system as operations evolve."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "smart-attendance-workforce-management",
+    "name": "Smart Attendance & Workforce Management",
+    "summary": "Intelligent attendance systems that go beyond recording who arrived — with real-time visibility for management.",
+    "icon": "fingerprint",
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+    "overview": "We build intelligent attendance systems that go beyond simply recording who arrived at work or school. Our solutions can combine dedicated hardware, secure software, cloud infrastructure and real-time dashboards to give management accurate visibility into attendance and workforce activity.",
+    "audience": "Schools, offices, churches, multi-location businesses and institutions that need reliable attendance records, workforce monitoring and centralized reporting without depending entirely on manual processes.",
+    "whatWeDeliverSubtitle": "From clock-in hardware to cloud dashboards — attendance architecture designed for security, data integrity, scalability and operational independence.",
+    "howWeWorkSubtitle": "We design around your sites, staff roles and reporting needs, then connect hardware, software and management access.",
+    "atAGlanceText": "For organizations operating across multiple locations, management can access centralized attendance information without relying entirely on manual reporting.",
+    "highlights": [
+      "Biometric attendance",
+      "Smart card attendance",
+      "Automated clock-in and clock-out",
+      "Real-time attendance dashboards",
+      "Cloud synchronization",
+      "Remote management access",
+      "Attendance reports and analytics",
+      "Multiple attendance locations",
+      "Role-based access control",
+      "Audit trails",
+      "Automated notifications",
+      "Attendance-based payroll integration"
+    ],
+    "benefits": [
+      {
+        "title": "Real-time visibility",
+        "description": "Management can see attendance as it happens, across one site or many, without waiting for end-of-day manual reports."
+      },
+      {
+        "title": "Hardware and software together",
+        "description": "Biometrics, smart cards and automated clock-in can sit on the same secure software and cloud stack."
+      },
+      {
+        "title": "Trustworthy records",
+        "description": "Role-based access, audit trails and cloud synchronization protect data integrity for operations, compliance and payroll."
+      },
+      {
+        "title": "Works across locations",
+        "description": "Centralized attendance for organizations that operate more than one campus, office or ministry site."
+      }
+    ],
+    "keyFeatures": [
+      {
+        "title": "Understand",
+        "description": "We review how you currently take attendance, how many locations you run, and who needs access to the data."
+      },
+      {
+        "title": "Design",
+        "description": "We specify hardware, capture methods, dashboards, access roles and how records move to the cloud."
+      },
+      {
+        "title": "Build",
+        "description": "We implement clock-in flows, reporting, notifications and optional payroll or HR integrations."
+      },
+      {
+        "title": "Deploy & support",
+        "description": "We configure sites, train administrators and keep the system running as you add locations or staff."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "child-safety-location-solutions",
+    "name": "Child Safety & Location Solutions",
+    "summary": "Technology for safer children's environments — identification, check-in and location awareness for authorized staff.",
+    "icon": "shield",
+    "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1200&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1200&q=80",
+    "overview": "Beyond Tech develops specialized technology for environments where children's safety, movement and accountability are critical. We can design integrated systems that combine identification, attendance management and location awareness to help authorized personnel understand where children are within a defined environment.",
+    "audience": "Children's churches, schools, childcare facilities, events and children's programs, large family-oriented organizations, and controlled indoor environments.",
+    "whatWeDeliverSubtitle": "Give organizations better visibility, accountability and control over the children entrusted to their care.",
+    "howWeWorkSubtitle": "We design around your building, entry points, staff roles and the level of location awareness you actually need.",
+    "atAGlanceText": "The objective is simple: give organizations better visibility, accountability and control over the children entrusted to their care.",
+    "highlights": [
+      "Digital child registration",
+      "Child and guardian profiles",
+      "Secure identification",
+      "Check-in and check-out",
+      "Entry-point monitoring",
+      "Indoor proximity and location awareness",
+      "Movement monitoring within defined areas",
+      "Real-time dashboards",
+      "Authorized staff alerts",
+      "Emergency visibility",
+      "Attendance history and reporting"
+    ],
+    "benefits": [
+      {
+        "title": "Know who is in your care",
+        "description": "Digital registration, child and guardian profiles, and secure identification replace informal paper lists."
+      },
+      {
+        "title": "Controlled check-in and check-out",
+        "description": "Entry-point monitoring and authorized pickup flows help staff release children to the right people."
+      },
+      {
+        "title": "Location awareness when it matters",
+        "description": "Indoor proximity, movement monitoring and emergency visibility help staff act quickly inside a defined environment."
+      },
+      {
+        "title": "Accountability after the fact",
+        "description": "Attendance history, reporting and staff alerts create a clear record for leadership and guardians."
+      }
+    ],
+    "keyFeatures": [
+      {
+        "title": "Understand",
+        "description": "We walk through how children currently arrive, move, and leave — and where visibility breaks down today."
+      },
+      {
+        "title": "Design",
+        "description": "We define registration, identification, zones, alerts and who is authorized to see location or attendance data."
+      },
+      {
+        "title": "Build",
+        "description": "We implement check-in, dashboards, alerts and optional indoor location within your environment."
+      },
+      {
+        "title": "Deploy & support",
+        "description": "We train staff, test emergency visibility, and refine the system around real Sunday, school-day or event operations."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "business-office-solutions",
+    "name": "Business & Office Solutions",
+    "summary": "Digital systems for modern organizations — replace fragmented admin with one platform for people, work and records.",
+    "icon": "briefcase",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+    "overview": "Beyond Tech helps businesses and offices replace fragmented administrative processes with centralized digital solutions. We study how your organization operates, identify inefficiencies and build technology that simplifies the process.",
+    "audience": "Small offices, growing enterprises and multi-department organizations that need employee, document, workflow and reporting systems designed around current operations — and flexible enough to grow.",
+    "whatWeDeliverSubtitle": "From a small office to a growing enterprise, systems designed around how you work today, with room to expand.",
+    "howWeWorkSubtitle": "We look at how work actually moves between people and departments, then digitize the process without adding complexity.",
+    "atAGlanceText": "From a small office to a growing enterprise, our systems can be designed around your current operations while remaining flexible enough to grow with you.",
+    "highlights": [
+      "Employee management",
+      "Attendance and workforce monitoring",
+      "Document and records management",
+      "Internal workflows",
+      "Approval processes",
+      "Inventory and asset management",
+      "Customer management",
+      "Reporting and analytics",
+      "Notifications and communication",
+      "Data collection",
+      "Operational dashboards",
+      "Multi-department workflows"
+    ],
+    "benefits": [
+      {
+        "title": "Less admin, clearer ownership",
+        "description": "Employee records, approvals and internal workflows live in one place instead of inboxes and shared drives."
+      },
+      {
+        "title": "Operations you can see",
+        "description": "Dashboards, reporting and notifications give managers a live view of work, inventory, customers and attendance."
+      },
+      {
+        "title": "Processes that move themselves",
+        "description": "Approval chains, data collection and multi-department workflows reduce chasing and duplicate entry."
+      },
+      {
+        "title": "Room to grow",
+        "description": "Start with the modules you need now and extend as departments, locations or headcount increase."
+      }
+    ],
+    "keyFeatures": [
+      {
+        "title": "Understand",
+        "description": "We study how your office actually runs — people, documents, approvals and the handoffs that slow teams down."
+      },
+      {
+        "title": "Design",
+        "description": "We propose a centralized system that matches your departments, roles and reporting needs."
+      },
+      {
+        "title": "Build",
+        "description": "We implement employee, workflow, records, inventory and dashboard modules around those processes."
+      },
+      {
+        "title": "Deploy & support",
+        "description": "We roll out to users, connect notifications, and keep improving as your operations change."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "church-organization-technology",
+    "name": "Church & Organization Technology",
+    "summary": "Purpose-built platforms for churches and organizations to manage people, ministry, communication and day-to-day activity.",
+    "icon": "users",
+    "image": "https://images.unsplash.com/photo-1438034717930-948b4aa0f529?w=1200&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1438034717930-948b4aa0f529?w=1200&q=80",
+    "overview": "Organizations have unique operational needs. Beyond Tech develops digital platforms that help churches and organizations manage people, information, communication and day-to-day activities more effectively. Our approach is to understand the organization's structure first, then develop technology that fits naturally into its operations.",
+    "audience": "Churches, ministries, NGOs and community organizations that need member, children's ministry, attendance, fellowship, volunteer and communication tools that match how they actually operate.",
+    "whatWeDeliverSubtitle": "Technology that fits the structure of the church or organization — not a generic CRM with ministry labels.",
+    "howWeWorkSubtitle": "We start with your structure, ministries and weekly rhythms, then build the workflows around them.",
+    "atAGlanceText": "Our approach is to understand the organization's structure first, then develop technology that fits naturally into its operations.",
+    "highlights": [
+      "Member management",
+      "Children's ministry management",
+      "Attendance tracking",
+      "Home fellowship management",
+      "Event registration",
+      "Volunteer management",
+      "Notifications and communication",
+      "Child check-in and monitoring",
+      "Administrative dashboards",
+      "Reports and analytics",
+      "Custom organizational workflows"
+    ],
+    "benefits": [
+      {
+        "title": "People in one system",
+        "description": "Member records, children's ministry, volunteers and home fellowships sit together instead of in separate lists."
+      },
+      {
+        "title": "Ministry operations, not just a database",
+        "description": "Attendance, events, child check-in and custom workflows follow how services and programs actually run."
+      },
+      {
+        "title": "Communication that reaches the right people",
+        "description": "Notifications and messaging support coordinators, parents and members without extra tools."
+      },
+      {
+        "title": "Leadership visibility",
+        "description": "Administrative dashboards and reports help pastors and administrators see what is happening across the organization."
+      }
+    ],
+    "keyFeatures": [
+      {
+        "title": "Understand",
+        "description": "We learn your ministries, fellowships, children's processes and how information currently moves."
+      },
+      {
+        "title": "Design",
+        "description": "We map member, attendance, volunteer and communication workflows onto a platform that matches your structure."
+      },
+      {
+        "title": "Build",
+        "description": "We develop the modules you need — including child check-in and monitoring where required."
+      },
+      {
+        "title": "Deploy & support",
+        "description": "We train administrators and ministry leads, then refine the system around real weekly operations."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "business-automation",
+    "name": "Business Automation",
+    "summary": "Replace spreadsheets, paper forms and repetitive data entry with connected workflows from collection to decisions.",
+    "icon": "workflow",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+    "overview": "If your team is still depending heavily on spreadsheets, paper forms, repetitive data entry or disconnected applications, there may be an opportunity to automate the process. Beyond Tech develops systems that connect people, data and processes into one streamlined workflow.",
+    "audience": "Teams that collect the same information repeatedly, chase approvals by hand, or re-enter data between tools — in schools, offices, churches and growing businesses.",
+    "whatWeDeliverSubtitle": "Less manual work, fewer errors, better visibility and more time for your team to focus on what matters.",
+    "howWeWorkSubtitle": "We automate the path from data collection through processing, notifications, reporting and management decisions.",
+    "atAGlanceText": "We can help automate: Data Collection → Processing → Notifications → Reporting → Management Decisions.",
+    "highlights": [
+      "Automated data collection",
+      "Processing without re-entry",
+      "Notifications and reminders",
+      "Operational reporting",
+      "Management decision support",
+      "Fewer manual handoffs",
+      "Fewer data errors",
+      "Connected people, data and processes"
+    ],
+    "benefits": [
+      {
+        "title": "From capture to decision",
+        "description": "Information moves from collection through processing, alerts and reporting without being retyped at every step."
+      },
+      {
+        "title": "Fewer errors, less chasing",
+        "description": "Automated notifications and structured workflows replace follow-up emails and missing spreadsheet rows."
+      },
+      {
+        "title": "Time back for the real work",
+        "description": "Staff spend less time on repetitive admin and more time on the work the organization exists to do."
+      },
+      {
+        "title": "Visibility for management",
+        "description": "Leaders see status, exceptions and trends instead of waiting for someone to compile a report."
+      }
+    ],
+    "keyFeatures": [
+      {
+        "title": "Understand",
+        "description": "We identify the manual steps, duplicate entry and disconnected tools that cost your team the most time."
+      },
+      {
+        "title": "Design",
+        "description": "We map a single workflow: collect → process → notify → report → decide."
+      },
+      {
+        "title": "Build",
+        "description": "We implement the automation, integrations and dashboards that make that path run on its own."
+      },
+      {
+        "title": "Deploy & support",
+        "description": "We switch teams over carefully and keep tuning rules as exceptions appear in real operations."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "slug": "software-integration-api-development",
+    "name": "Software Integration & API Development",
+    "summary": "Make your systems work together — APIs and integrations so applications, platforms and services can communicate.",
+    "icon": "plug",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "overview": "Modern organizations rarely operate with a single system. Beyond Tech develops APIs and integrations that allow different applications, platforms and services to communicate with one another. Our goal is to create connected technology ecosystems instead of isolated applications.",
+    "audience": "Organizations running more than one tool — payments, communication, authentication, databases, internal systems or third-party platforms — that need those systems to share data reliably.",
+    "whatWeDeliverSubtitle": "Connected technology ecosystems instead of isolated applications.",
+    "howWeWorkSubtitle": "We identify what needs to talk to what, then build the APIs, authentication and data flows in between.",
+    "atAGlanceText": "We work with REST APIs, third-party services, payment systems, communication platforms, authentication, cloud services, business databases and internal organizational systems.",
+    "highlights": [
+      "REST APIs",
+      "Third-party service integrations",
+      "Payment systems",
+      "Communication platforms",
+      "Authentication systems",
+      "Cloud services",
+      "Business databases",
+      "Internal organizational systems"
+    ],
+    "benefits": [
+      {
+        "title": "Systems that share data",
+        "description": "Attendance, payments, messaging, HR and internal tools can exchange information instead of living in silos."
+      },
+      {
+        "title": "Stable contracts between teams",
+        "description": "REST APIs and authentication give you a clear, secure way for applications to talk to each other."
+      },
+      {
+        "title": "Less double entry",
+        "description": "Integrations with payments, communication platforms and databases remove copy-paste between tools."
+      },
+      {
+        "title": "Room to add the next system",
+        "description": "A connected architecture makes it easier to introduce a new platform without rebuilding everything."
+      }
+    ],
+    "keyFeatures": [
+      {
+        "title": "Understand",
+        "description": "We inventory the applications, databases and third-party services you already rely on."
+      },
+      {
+        "title": "Design",
+        "description": "We define API contracts, authentication, error handling and which system remains the source of truth."
+      },
+      {
+        "title": "Build",
+        "description": "We develop the APIs and integrations, including payments, messaging and internal systems where needed."
+      },
+      {
+        "title": "Deploy & support",
+        "description": "We ship securely, monitor the connections, and adjust as vendors or internal systems change."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "slug": "cloud-digital-infrastructure",
+    "name": "Cloud & Digital Infrastructure",
+    "summary": "Built to run. Built to scale. We don't stop at the software — we help you host, secure and operate it.",
+    "icon": "cloud",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",
+    "overview": "We don't stop at developing the software. Beyond Tech can support the deployment and infrastructure required to run your applications reliably. From development to deployment, we help turn software into a working business system.",
+    "audience": "Organizations that need their custom software, attendance platforms or internal systems hosted securely, monitored, backed up and ready to scale.",
+    "whatWeDeliverSubtitle": "The hosting, databases, APIs, monitoring and backups that keep a business system running.",
+    "howWeWorkSubtitle": "Infrastructure is planned with the product — not bolted on after the application is finished.",
+    "atAGlanceText": "From development to deployment, we help turn software into a working business system.",
+    "highlights": [
+      "Cloud deployment",
+      "Application hosting",
+      "Database infrastructure",
+      "Secure API deployment",
+      "Server configuration",
+      "Containerized applications",
+      "CI/CD workflows",
+      "System monitoring",
+      "Backup architecture",
+      "Scalable application infrastructure"
+    ],
+    "benefits": [
+      {
+        "title": "Software that actually runs",
+        "description": "Hosting, databases and server configuration are part of delivery — not a problem left for your team after handover."
+      },
+      {
+        "title": "Secure by default",
+        "description": "Secure API deployment, access controls and responsible data handling are built into the environment."
+      },
+      {
+        "title": "Ready to grow",
+        "description": "Containerized applications, CI/CD and scalable infrastructure mean you can add users and locations without starting over."
+      },
+      {
+        "title": "Operable day to day",
+        "description": "Monitoring and backup architecture keep the system visible and recoverable when something goes wrong."
+      }
+    ],
+    "keyFeatures": [
+      {
+        "title": "Understand",
+        "description": "We review how the application will be used, expected load, and what uptime and data protection you need."
+      },
+      {
+        "title": "Design",
+        "description": "We specify cloud hosting, databases, networking, backups and how releases will be shipped."
+      },
+      {
+        "title": "Build",
+        "description": "We configure servers or containers, CI/CD, monitoring and secure API deployment."
+      },
+      {
+        "title": "Deploy & support",
+        "description": "We go live, watch the system, and keep infrastructure aligned as the product and organization grow."
+      }
+    ]
+  }
+]

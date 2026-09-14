@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "category": "Services",
+    "question": "What does Beyond Tech actually build?",
+    "answer": "We design, build and deploy custom software and digital systems around how your organization works. That includes business and enterprise applications, smart attendance and workforce management, child safety and location solutions, church and organization platforms, office systems, business automation, API integrations, and cloud infrastructure."
+  },
+  {
+    "id": "2",
+    "category": "Services",
+    "question": "Do you sell off-the-shelf software?",
+    "answer": "No. Every organization operates differently. Instead of forcing your processes into a generic product, we design software around your specific requirements — whether you are replacing spreadsheets, paper forms or disconnected systems."
+  },
+  {
+    "id": "3",
+    "category": "Attendance",
+    "question": "Can you build attendance systems that go beyond clock-in records?",
+    "answer": "Yes. Our attendance solutions can combine dedicated hardware, secure software, cloud infrastructure and real-time dashboards. Depending on the organization, that can include biometrics, smart cards, automated clock-in and clock-out, multi-location reporting, payroll integration and role-based access."
+  },
+  {
+    "id": "4",
+    "category": "Child safety",
+    "question": "Who are child safety and location solutions for?",
+    "answer": "They are designed for environments where children's safety, movement and accountability matter — children's churches, schools, childcare facilities, events, and large family-oriented organizations. The goal is better visibility, accountability and control for authorized personnel."
+  },
+  {
+    "id": "5",
+    "category": "Churches",
+    "question": "Do you build software specifically for churches and ministries?",
+    "answer": "Yes. We develop purpose-built platforms for member management, children's ministry, attendance, home fellowship, event registration, volunteer coordination, child check-in, notifications and administrative reporting — designed around how the organization actually operates."
+  },
+  {
+    "id": "6",
+    "category": "Delivery",
+    "question": "How do you work with a new client?",
+    "answer": "We follow a clear path from challenge to working solution: understand your organization and objectives, design the system architecture, build the software and integrations, deploy into your environment, then support and improve as you grow."
+  },
+  {
+    "id": "7",
+    "category": "Delivery",
+    "question": "Can you automate processes we still run on spreadsheets?",
+    "answer": "That is a core part of our work. If your team depends on paper forms, repetitive data entry or disconnected applications, we can connect data collection, processing, notifications, reporting and management decisions into one streamlined workflow."
+  },
+  {
+    "id": "8",
+    "category": "Technical",
+    "question": "Do you only build the software, or do you also host and run it?",
+    "answer": "We don't stop at development. Beyond Tech can support cloud deployment, application hosting, databases, secure APIs, monitoring, backups and scalable infrastructure so the system is a working business tool, not just a codebase."
+  },
+  {
+    "id": "9",
+    "category": "Getting started",
+    "question": "What if we are not sure what software we need yet?",
+    "answer": "That is fine. You may already know the system you want, or you may only know that the current process is inefficient. Tell us the challenge. We will help you turn it into a practical digital solution."
+  }
+]
