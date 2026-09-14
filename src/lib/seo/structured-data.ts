@@ -33,7 +33,7 @@ export function serviceJsonLd(service: Service): Record<string, unknown> {
     name: service.name,
     description: service.overview || service.summary,
     url: absoluteUrl(`/services/${service.slug}`),
-    image: service.imageUrl,
+    image: absoluteUrl(service.imageUrl),
     serviceType: service.name,
     category: service.name,
     audience: {

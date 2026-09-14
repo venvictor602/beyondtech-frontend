@@ -41,7 +41,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.85,
-    images: service.imageUrl ? [service.imageUrl] : undefined,
+    images: service.imageUrl ? [absoluteUrl(service.imageUrl)] : undefined,
   }));
 
   const projectRoutes = projects.map((project) => ({
